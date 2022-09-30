@@ -8,8 +8,8 @@ function App() {
 
  function laske(e) {
   e.preventDefault()
-  const tulosA = (220 - age) * 0.85
-  const tulosY = (220 - age) * 0.65
+  const tulosY = (220 - age) * 0.85
+  const tulosA = (220 - age) * 0.65
   setUpper(tulosY)
   setLower(tulosA)
  }
